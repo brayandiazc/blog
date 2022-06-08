@@ -54,6 +54,9 @@ group :development, :test do
 end
 
 group :development do
+  # geema para anotar los datos de mi base de datos en mis modelos
+  gem 'annotate'
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
