@@ -9,6 +9,9 @@ gem "rails", "~> 7.0.3"
 # gema para autenticacion
 gem "devise"
 
+# gema es para traducir las vistas de devise
+gem 'devise-i18n'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
