@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get "pages/home"
-  get "pages/terms"
   root "pages#home"
+
+  # Pages
+  get "/inicio", to: "pages#home"
+  get "/nosotros", to: "pages#about"
 
   # Devise
   devise_for :users, controllers: { registrations: "registrations" },
