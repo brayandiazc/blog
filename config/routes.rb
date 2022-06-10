@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # Pages
   get "/inicio", to: "pages#home"
   get "/nosotros", to: "pages#about"
+  get "/contacto", to: "pages#contact"
 
   # Devise
   devise_for :users, controllers: { registrations: "registrations" },
